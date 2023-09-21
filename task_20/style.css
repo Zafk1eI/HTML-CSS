@@ -1,0 +1,15 @@
+.first_task {
+    text-decoration: overline;
+    color: red;
+}
+.second_task {
+    text-decoration: line-through;
+    color:green;
+}
+.third_task {
+    text-decoration: underline;
+    font-weight: bold;
+}
+a {
+    color: red;
+}

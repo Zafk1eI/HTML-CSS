@@ -1,0 +1,14 @@
+p {
+    font: 13px/20px 'Times New Roman';
+}
+
+p {
+    width: 300px;
+    font: bold 40px Arial;
+    color: red;
+}
+
+p {
+    font: bold italic 40px/60px Arial;
+    text-indent: 50px;
+}
