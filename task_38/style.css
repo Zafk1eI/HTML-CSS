@@ -1,0 +1,47 @@
+/*Выбирает тег с заданными классами bbb и zzz*/
+.bbb.zzz {
+	color: red;
+}
+/*Выбирает тег h2 с заданными классами bbb и zzz*/
+h2.bbb.zzz {
+	color: green;
+}
+/*Выбирает тег с заданными классом bbb и id elem*/
+#elem.bbb {
+	color: yellow;
+}
+#elem.bbb.zzz {
+	color: rgb(245, 77, 10);
+}
+/*Выбирает тег h2 с заданными классом bbb и id elem*/
+h2#elem.bbb {
+	color: #f0f;
+}
+h2.zzz {
+	color: red;
+}
+/*Ищет внутри тега h2 тег с классом zzz*/
+h2 .zzz {
+	color: red;
+}
+.bbb .zzz {
+	color: goldenrod;
+}
+/*Ищет тег с классами zzz xxx bbb*/
+.bbb.zzz.xxx {
+	color: red;
+}
+
+.bbb .zzz.xxx {
+	color: yellow;
+}
+.bbb1.zzz .xxx {
+	color: red;
+}
+.bbb .zzz .xxx {
+	color: green;
+}
+
+#elem .bbb {
+	color: rgb(245, 77, 10);
+}

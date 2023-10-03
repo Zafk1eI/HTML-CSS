@@ -1,0 +1,27 @@
+[title] {
+    color: aqua;
+}
+
+p[title] {
+    color: red;
+}
+
+p[title = "привет"] {
+    color: blue;
+}
+
+a[href^="http://"] {
+    color: yellow;
+  }
+
+a[href$=".html"] {
+    color: brown;
+}
+
+p[title*="привет"]{
+    color: yellow;
+}
+
+p[title^="top-"]{
+    color: aqua;
+}

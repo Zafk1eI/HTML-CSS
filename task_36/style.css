@@ -1,0 +1,15 @@
+#elem h2 {
+    color: #f09;
+}
+
+#elem1 .text {
+    color: aquamarine;
+}
+
+#elem2 p.text {
+    color: chocolate;
+}
+
+#elem3 ul li.text {
+    color:blueviolet;
+}

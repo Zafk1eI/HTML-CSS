@@ -1,0 +1,6 @@
+#elem + li {
+    color: red;
+}
+.elem + li {
+    color: blue;
+}
