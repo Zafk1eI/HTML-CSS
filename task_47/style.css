@@ -1,0 +1,13 @@
+a {
+	color: red;
+}
+a:hover {
+	text-decoration: none;
+}
+
+a.zzz {
+	color: red;
+}
+a.zzz:hover {
+	text-decoration: none;
+}

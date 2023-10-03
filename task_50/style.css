@@ -1,0 +1,11 @@
+._1 li:not(.elem){
+    color: red;
+}
+
+._2 li:not(:first-child) {
+    color: green;
+}
+
+._3 li:not(:first-child,:last-child) {
+    color: blue;
+}

@@ -1,0 +1,7 @@
+body {
+	background-position: top right;
+	background-image: url(assets/bg.png);
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 300px;
+}

@@ -1,0 +1,18 @@
+#elem {
+    width: 300px;
+    height: 200px;
+    border-top: 3px solid blue;
+    border-bottom: 3px solid red;
+    border-left: 3px solid orange;
+    border-right: 3px solid green;
+}
+
+#elem1 {
+    margin-top: 15px;
+    width: 300px;
+    height: 200px;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+    border-left: 3px solid red;
+    border-right: 3px dotted green;
+}

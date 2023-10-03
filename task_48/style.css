@@ -1,0 +1,42 @@
+.ul1 li:first-child {
+    color: red;
+}
+.ul2 li:last-child {
+    color: green;
+}
+
+.ul3 li:first-child {
+    color: red;
+}
+.ul3 li:last-child {
+    color: green;
+}
+
+.ul4 li:nth-child(3){
+    color: red;
+}
+
+.ul5 li:nth-child(odd) {
+    color: red;
+}
+.ul5 li:nth-child(even) {
+    color: green;
+}
+.ul6 li:nth-child(3n) {
+    color: red;
+}
+.ul7 li:nth-last-child(2) {
+    color: red;
+}
+.ul8 li:only-child {
+    color: blue;
+}
+.ul9 li {
+    border: 1px solid red;
+    width: 100px;
+    padding: 3px;
+    margin-top: 10px;
+}
+.ul9 li:empty {
+    border: 1px solid blue
+}

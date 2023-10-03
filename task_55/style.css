@@ -1,0 +1,24 @@
+.elem {
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    border-radius: 30px;
+}
+
+#elem {
+    width: 200px;
+    height: 200px;
+    background-color: #4dee99;
+    border-radius: 30px;
+}
+
+#elem1 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    border-radius: 100px;
+}
+
+.elem, #elem, #elem1 {
+    margin-top: 15px;
+}

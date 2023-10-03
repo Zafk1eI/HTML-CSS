@@ -1,0 +1,26 @@
+.elem1, .elem2, .elem3, .elem4 {
+    width: 300px;
+    height: 200px;
+    border-width: 5px;
+    margin-top: 15px;
+}
+
+.elem1 {
+    border-style: solid;
+    border-color: blueviolet;
+}
+
+.elem2 {
+    border-style: dotted;
+    border-color: red;
+}
+
+.elem3 {
+    border-style: dashed;
+    border-color: orange;
+}
+
+.elem4 {
+    border-style: double;
+    border-color: blueviolet;
+}
