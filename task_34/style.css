@@ -1,0 +1,22 @@
+.success {
+	color: green;
+}
+.error {
+	color: red;
+}
+.large {
+	font-size: 30px;
+}
+.small {
+	font-size: 20px;
+}
+
+.color-yellow{
+	color: yellow;
+}
+.font {
+	font-size: 50px;
+}
+.center{
+	text-align: center;
+}
