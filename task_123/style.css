@@ -1,0 +1,21 @@
+#elem1 {
+    width: 400px;
+    border: 1px dashed blue;
+    margin: 30px;
+}
+#elem2 {
+    margin: 50px;
+    height: 300px;
+    border: 1px solid orange;
+}
+
+#elem3 {
+    margin: 30px;
+    border: 1px dashed green;
+}
+
+#elem4 {
+    height: 200px;
+    margin: 30px;
+    border: 1px solid red;
+}

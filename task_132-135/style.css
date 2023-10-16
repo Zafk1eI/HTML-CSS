@@ -1,0 +1,16 @@
+
+#elem1 {
+	width: 200px;
+	height: 200px;
+	background: #f1f1f1;
+	margin-bottom: 20px;
+}
+
+#elem2 {
+	width: 200px;
+	height: 200px;
+	background: #f1f1f1;
+	padding: 25px;
+	border: 10px solid blue;
+	box-sizing: border-box;
+}
