@@ -1,0 +1,14 @@
+p {
+	display: inline;
+	width: 100px;
+	height: 100px;
+	border: 1px solid red;
+}
+
+a {
+    margin-top: 20px;
+	display: block;
+	width: 100px;
+	height: 100px;
+	border: 1px solid green;
+}

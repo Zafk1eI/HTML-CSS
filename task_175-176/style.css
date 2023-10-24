@@ -1,0 +1,181 @@
+#parents {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    margin: 20px auto;
+    border: 1px solid green;
+}
+#elem1 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 75px;
+    top: 75px;
+    border: 1px solid red;
+}
+
+.parent {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    margin: 20px auto;
+    background-color: #4DEE99;
+}
+
+#elem2 {
+    background-color: #fff;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    width: 100px;
+    height: 100px;
+}
+#elem3 {
+    background-color: #fff;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+#parent {
+    position: relative;
+    width: 200px;
+    height: 430px;
+    margin: 20px auto;
+    border: 1px solid black;
+}
+#elem4 {
+    border: 1px solid black;
+    background-color: red;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+#elem5 {
+    background-color: yellow;
+    border: 1px solid black;
+    position: absolute;
+    left: 50px;
+    top: 160px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+#elem6 {
+    border: 1px solid black;
+    background-color: green;
+    position: absolute;
+    left: 50px;
+    top: 270px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+#smile1 {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 20px auto;
+    background-color: #4DEE99;
+    border-radius: 250px;
+}
+
+.eye1 {
+    background-color: #fff;
+    position: absolute;
+    right: 100px;
+    top: 70px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.eye2 {
+    background-color: #fff;
+    position: absolute;
+    left: 100px;
+    top: 70px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.noise {
+    background-color: #fff;
+    position: absolute;
+    left: 215px;
+    top: 200px;
+    width: 70px;
+    height: 70px;
+}
+.mouth {
+    background-color: #fff;
+    position: absolute;
+    left: 150px;
+    top: 350px;
+    width: 200px;
+    height: 20px;
+}
+
+#smile2 {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #C4CD14;
+    border-radius: 200px;
+}
+#eye1 {
+    background-color: #fff;
+    position: absolute;
+    right: 80px;
+    top: 70px;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    z-index: 3;
+}
+#eye2 {
+    background-color: #fff;
+    position: absolute;
+    left: 80px;
+    top: 70px;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    z-index: 3;
+}
+#noise {
+    background-color: #fff;
+    position: absolute;
+    left: 165px;
+    top: 200px;
+    width: 70px;
+    height: 70px;
+    z-index: 3;
+    border-radius: 35px;
+}
+#mouth1 {
+    background-color: #fff;
+    position: absolute;
+    left: 100px;
+    top: 155px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    z-index: 1;
+}
+#mouth2 {
+    background-color: #C4CD14;
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    z-index: 2;
+}

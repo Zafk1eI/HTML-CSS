@@ -1,0 +1,60 @@
+#elem2 {
+    border: 1px solid blue;
+    left: 100px;
+    top: 100px;
+}
+#elem1 {
+    border: 1px solid red;
+    left: 30px;
+    top: 30px;
+}
+#elem3 {
+    border: 1px solid green;
+    left: 170px;
+    top: 170px;
+}
+
+#elem1, #elem2, #elem3, #elem4, #elem5, #elem6 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+.elem1 {
+    border: 1px solid red;
+    left: 30px;
+}
+.elem2 {
+    border: 1px solid blue;
+    left: 100px;
+}
+.elem3 {
+    border: 1px solid green;
+    left: 170px;
+}
+
+.elem1, .elem2, .elem3 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+	top: 300px;
+}
+
+#elem4{
+	background-color: #FF8888;
+	top: 530px;
+	left: 30px;
+}
+
+#elem2 {
+    background-color: #7E89EB;
+	top: 560px;
+	left: 60px;
+	z-index: 1;
+}
+#elem3 {
+    background-color: #4DEE99;
+	top: 590px;
+	left: 90px;
+	z-index: 2;
+}

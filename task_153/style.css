@@ -1,0 +1,23 @@
+#parent {
+	border: 1px solid red;
+}
+#elem1 {
+	width: 100px;
+	height: 100px;
+	margin: 20px auto;
+	border: 1px solid green;
+}
+
+#elem2 {
+	width: 200px;
+	height: 100px;
+	margin: 20px auto;
+	border: 1px solid green;
+}
+
+#elem3 {
+	width: 300px;
+	height: 100px;
+	margin: 20px auto;
+	border: 1px solid green;
+}
