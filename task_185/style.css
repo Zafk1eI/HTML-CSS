@@ -1,0 +1,22 @@
+#elem1 {
+    background-color: #ff8888;
+    left: 30px;
+    top: 30px;
+}
+#elem1, #elem2, #elem3 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+#elem2 {
+    z-index: -1;
+    background-color: #7e89eb;
+    left: 60px;
+    top: 60px;
+}
+#elem3 {
+    background-color: #4dee99;
+    left: 90px;
+    top: 90px;
+}
+
