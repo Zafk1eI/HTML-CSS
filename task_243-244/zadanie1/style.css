@@ -1,0 +1,30 @@
+#wrapper {
+    width: 1200px;
+    margin: 30px auto;
+    border: 1px solid black;
+}
+#header {
+    height: 250px;
+    padding: 20px;
+    border: 1px solid black;
+}
+#container {
+    display: flex;
+}
+#sidebar {
+    width: 300px;
+    margin-right: 40px;
+    padding: 20px;
+    border: 1px solid black;
+}
+#content {
+    width: 860px;
+    height: 900px;
+    padding: 20px;
+    border: 1px solid black;
+}
+#footer {
+    height: 100px;
+    padding: 20px;
+    border: 1px solid black;
+}

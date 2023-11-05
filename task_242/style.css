@@ -1,0 +1,67 @@
+body {
+    font-family: Arial;
+}
+
+#header h1 {
+    font-size: 35px;
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+#header p {
+    font-size: 21px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#contacts p {
+    text-align: center;
+}
+
+#header {
+    background: #008040;
+    color: white;
+}
+
+.center {
+    width: 840px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#services {
+    background-color: white;
+}
+
+#contacts {
+    background-color: #C60304;
+    color: white;
+}
+
+#company {
+    background-color: white;
+}
+
+.wrapper h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 27px;
+}
+
+.wrapper p, .wrapper li {
+    margin-bottom: 10px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+#footer {
+    padding-top: 100px;
+    background: #FF8040;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
+
+.wrapper {
+    margin-bottom: 30px;
+}

@@ -1,0 +1,50 @@
+.parent {
+    display: grid;
+    grid-template: 1fr 2fr / 0.5fr 1fr 1fr 2fr;
+    border: 2px solid #696989;
+    padding: 10px;
+    margin: 0 auto;
+    width: 600px;
+    height: 200px;
+}
+.parent1 {
+    display: grid;
+    grid-template: 1fr 2fr/ 2fr 1fr 1fr 2fr;
+    border: 2px solid #696989;
+    padding: 10px;
+    margin: 0 auto;
+    width: 600px;
+    height: 200px;
+}
+.parent1 > div, .parent > div, #parent > div, #parent1 > div, #parent2 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
+#parent {
+    display: grid;
+    grid-template: 1fr 1fr 2fr 4fr/ 0.5fr 1.5fr 3fr;
+    border: 2px solid #696989;
+    padding: 10px;
+    margin: 0 auto;
+    width: 600px;
+    height: 300px;
+}
+#parent1 {
+    display: grid;
+    grid-template: 2fr 1fr 1fr / 2fr 1fr 2fr 1fr;
+    border: 2px solid #696989;
+    padding: 10px;
+    margin: 0 auto;
+    width: 600px;
+    height: 300px;
+}
+#parent2 {
+    display: grid;
+    grid-template: 2fr 1fr / repeat(2, 0.5fr) 1fr repeat(2, 2fr);
+    border: 2px solid #696989;
+    padding: 10px;
+    margin: 0 auto;
+    width: 600px;
+    height: 300px;
+}

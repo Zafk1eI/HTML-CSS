@@ -1,0 +1,32 @@
+#parent {
+	display: grid;
+	grid-template-columns: repeat(4, 3fr);
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 600px;
+}
+
+#parent1 {
+    margin-top: 20px;
+	display: grid;
+	grid-template-columns: repeat(4, 100px) repeat(3, 2fr);
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 600px;
+}
+
+#parent > div, #parent1 > div, #parent2 > div {
+	padding: 10px;
+    text-align:center;
+	border: 1px solid #696989;
+	box-sizing: border-box;
+	border: 1px solid #696989;
+}
+
+#parent2 {
+    margin-top: 20px;
+	display: grid;
+	grid-template-columns: repeat(2, 100px) repeat(3, 200px) 1fr repeat(2, 10%);
+	border: 2px solid #696989;
+	padding: 10px;
+}

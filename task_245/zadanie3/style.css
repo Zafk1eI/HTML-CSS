@@ -1,0 +1,40 @@
+#wrapper {
+    width: 1000px;
+    margin: 30px auto;
+    border: 1px solid black;
+}
+#header {
+    height: 250px;
+    padding: 20px;
+    border: 1px solid black;
+}
+#container {
+    display: flex;
+}
+
+#content {
+    width: 560px;
+    height: 700px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+#left {
+    width: 200px;
+    margin-left: 20px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+#right {
+    width: 200px;
+    margin-left: 20px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+#footer {
+    height: 100px;
+    padding: 20px;
+    border: 1px solid black;
+}
